@@ -1,0 +1,152 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index:999;
+}
+#hover-nav:hover{
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    border-radius: 5px;
+}
+#hover-nav-1:hover{
+    box-shadow: rgba(219, 180, 4, 0.863) 0px 2px 5px 0px, rgba(255, 0, 0, 0.685) 0px 1px 1px 0px;
+    color: dodgerblue;
+    background: lavender;
+}
+#row-bg{
+    background: black;
+}
+.vertical{
+    border-left: 1px solid white;
+    height: 300px;
+}
+#require-bg{
+    background:lightgray;
+    color: indigo;
+}
+.shadow-thunder:hover{
+    background: whitesmoke;
+    color: blue;
+    border-radius: 10px;
+}
+.shadow-mariyo:hover{
+    background: blue;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+
+#bgGallery{
+    background-image: url(../src/gallery3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+}
+#contactFormImage{
+    background-image: url(../src/contactFormImage.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+}
+
+/* for Transparent Input */
+.form-control {
+    border-color: transparent transparent blue transparent;
+    background: transparent;
+    outline: 0 !important;
+    position: relative;
+    display: inline-block;
+    overflow: hidden
+}
+
+.form-control:focus {
+    border: 1px solid yellow transparent;
+    background: transparent;
+    outline: 0 !important;
+    box-shadow: 0 0 0 0rem rgba(0, 123, 255, .25)
+}
+
+.form-control>input[type=text] {
+    border: none;
+    border-bottom: 3px solid red;
+    outline: none
+}
+
+.underline-animation {
+    transition: all 1s;
+    display: inline-block;
+    bottom: 0;
+    left: -100%;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #64e4fe
+}
+
+.form-control>input[type=text]:focus+.underline-animation {
+    left: 0
+}
+
+.btn-info{
+    float: right;
+    color: white;
+}
+.btn-info:focus{
+    background-color: blue;
+    color: white;
+    box-shadow: rgba(94, 94, 95, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px; 
+    border: rgb(255, 208, 0);
+    border-radius: 6px;
+}
+#textHoverTrainer{
+    color:dodgerblue;
+}
+#textHoverTrainer:hover{
+    color:orangered;
+}
+#joinUs{
+    background-color: blue;
+    color: whitesmoke;
+}
+#imagecouple{
+    background: url(./couple.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#india{
+    background-color: rgba(211, 211, 211, 0.356);
+    background-attachment: fixed;
+}
+#wellnessprogram{
+    background: url(./gallery5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#shadowborder{
+    border: 3px solid orange;
+}
+#newsevent{
+    background: url(./gym4.jpg);
+    background-size: cover;
+}
+#linkHover:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
